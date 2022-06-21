@@ -1,6 +1,6 @@
 import "./cliente.css"
 
-export default function ListaClientes(props) {
+export default function ListaProdServ(props) {
     const estilo = `collection-item active ${props.tema}`
     return (
         <div className='row'>
@@ -18,14 +18,23 @@ export default function ListaClientes(props) {
                                 <tr>
                                     <td></td>
                                     <td></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -46,14 +55,23 @@ export default function ListaClientes(props) {
                                 <tr>
                                     <td></td>
                                     <td></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                             </tbody>
                             </table>

@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import "./cliente.css"
+import 'materialize-css/dist/css/materialize.min.css'
 
 export default function ListaClientes(props) {
     const estilo = `collection-item active ${props.tema}`
@@ -21,16 +22,25 @@ export default function ListaClientes(props) {
                                     <td>Matheus Sakuragui</td>
                                     <td>matheus.sakuragui@gmail.com</td>
                                     <td>12 12345-6789</td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>Rikio Anzai</td>
                                     <td>rikio.anzai@gmail.com</td>
                                     <td>12 23456-7890</td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>Rodrigo de Andrade</td>
                                     <td>rodrigo.andrade@gmail.com</td>
                                     <td>12 34567-8901</td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -53,16 +63,25 @@ export default function ListaClientes(props) {
                                     <td>Gizeli Martin Fonseca</td>
                                     <td>gizeli.fonseca@gmail.com</td>
                                     <td>12 45678-9012</td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>Maria Clara Alves de Faria</td>
                                     <td>maria.alves@gmail.com</td>
                                     <td>12 56789-0123</td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                                 <tr>
                                     <td>Evora de Castro</td>
                                     <td>evora.castro@gmail.com</td>
                                     <td>12 67890-1234</td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
                                 </tr>
                             </tbody>
                             </table>
