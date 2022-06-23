@@ -1,7 +1,7 @@
 import "./formulario.css"
 
 export default function FormularioCadastroCliente(props){
-    const estiloBotao = `btn waves-effect waves-light ${props.tema}`
+    const estiloBotao = `btn waves-effect waves-light #9575cd deep-purple lighten-2`
     return (
         <div className="container">
                 <div className="row caixa">

@@ -4,8 +4,11 @@ import { Route, BrowserRouter, Routes as Switch } from "react-router-dom";
 import BarraNavegacao from "./barraNavegacao";
 import FormularioCadastroCliente from "./formularioCadastroCliente";
 import ListaCliente from "./listaCliente";
-import ListaProdServ from "./listaProdServ"
-import FormularioCadastroProdServ from "./formularioCadastroProdServ"
+import ListaProdServ from "./listaProdServ";
+import FormularioCadastroProdServ from "./formularioCadastroProdServ";
+import EditarCliente from "./editarCliente";
+import EditarProdServ from "./editarProdServ";
+import VisualizarCliente from "./visualizarCliente";
 
 function Routes() {
     return (
@@ -17,6 +20,9 @@ function Routes() {
                     <Route path="/prodserv" element={<ListaProdServ tema="purple lighten-4" />} />
                     <Route path="/cadastroprodserv" element={<FormularioCadastroProdServ tema="purple lighten-4" />} />
                     <Route path="/cadastrocliente" element={<FormularioCadastroCliente tema="purple lighten-4" />} />
+                    <Route path="/editarcliente" element={<EditarCliente tema="purple lighten-4" />} />
+                    <Route path="/editarprodserv" element={<EditarProdServ tema="purple lighten-4" />} />
+                    <Route path="/visualizarcliente" element={<VisualizarCliente tema="purple lighten-4" />} />
                 </Switch>
             </BrowserRouter>
         </>

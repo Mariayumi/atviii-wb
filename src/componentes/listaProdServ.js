@@ -12,29 +12,28 @@ export default function ListaProdServ(props) {
                                 <tr>
                                     <th>Produto</th>
                                     <th>Valor</th>
+                                    <th></th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td>Esfoliante</td>
+                                    <td>R$ 25,00</td>
+                                    <td><a class="waves-effect waves-light btn" href="/editarprodserv"><i class="fa-solid fa-pen"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i class="fa-solid fa-xmark"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td>Velas Aromáticas</td>
+                                    <td>R$ 40,00</td>
+                                    <td><a class="waves-effect waves-light btn" href="/editarprodserv"><i class="fa-solid fa-pen"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i class="fa-solid fa-xmark"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td>Hidratante</td>
+                                    <td>R$ 35,00</td>
+                                    <td><a class="waves-effect waves-light btn" href="/editarprodserv"><i class="fa-solid fa-pen"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i class="fa-solid fa-xmark"></i></a></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -49,29 +48,28 @@ export default function ListaProdServ(props) {
                                 <tr>
                                     <th>Serviço</th>
                                     <th>Valor</th>
+                                    <th></th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td>Massagem</td>
+                                    <td>R$ 120,00</td>
+                                    <td><a class="waves-effect waves-light btn" href="/editarprodserv"><i class="fa-solid fa-pen"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i class="fa-solid fa-xmark"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td>Hidratação capilar</td>
+                                    <td>R$ 100,00</td>
+                                    <td><a class="waves-effect waves-light btn" href="/editarprodserv"><i class="fa-solid fa-pen"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i class="fa-solid fa-xmark"></i></a></td>
                                 </tr>
                                 <tr>
-                                    <td></td>
-                                    <td></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
-                                    <td><a class="waves-effect waves-light btn"><i className="fa-solid fa-glasses"></i></a></td>
+                                    <td>Manicure</td>
+                                    <td>R$ 25,00</td>
+                                    <td><a class="waves-effect waves-light btn" href="/editarprodserv"><i class="fa-solid fa-pen"></i></a></td>
+                                    <td><a class="waves-effect waves-light btn"><i class="fa-solid fa-xmark"></i></a></td>
                                 </tr>
                             </tbody>
                             </table>
